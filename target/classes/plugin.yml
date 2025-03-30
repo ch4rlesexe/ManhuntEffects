@@ -1,0 +1,15 @@
+name: ManhuntEffects
+version: '1.0-SNAPSHOT'
+main: org.ch4rlesexe.manhuntEffects.ManhuntEffects
+api-version: '1.21'
+commands:
+  resetabilities:
+    description: Reset your abilities
+    usage: /resetabilities
+permissions:
+  manhunteffects.reset:
+    description: Allows resetting abilities
+    default: op
+  manhunteffects.reset.others:
+    description: Allows you to reset other people's abilities
+    default: op
